@@ -7,7 +7,7 @@ public class BoringPalindrome {
 		Scanner scanner=new Scanner(System.in);
         String input=scanner.next();
 
-		final boolean palindrome = isPalindrome(input);
+		boolean palindrome = isPalindrome(input);
 
 		System.out.println("Is palindrome? " + palindrome);
 	}
